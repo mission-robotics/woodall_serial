@@ -25,7 +25,7 @@ void loop()
 // #define private public
 // #define protected public
 
-#include "serial/serial.h"
+#include "woodall_serial/serial.h"
 
 #if defined(__linux__)
 #include <pty.h>

@@ -1,5 +1,5 @@
 /*!
- * \file serial/serial.h
+ * \file woodall_serial/serial.h
  * \author  William Woodall <wjwwood@gmail.com>
  * \author  John Harrison   <ash.gti@gmail.com>
  * \version 0.1
@@ -43,7 +43,7 @@
 #include <sstream>
 #include <exception>
 #include <stdexcept>
-#include <serial/v8stdint.h>
+#include <woodall_serial/v8stdint.h>
 
 #define THROW(exceptionClass, message) throw exceptionClass(__FILE__, \
 __LINE__, (message) )
